@@ -1,0 +1,17 @@
+{
+  "name": "affogato",
+  "owner": { "name": "Affogato", "url": "https://affogato.ai" },
+  "metadata": {
+    "description": "Generate images, video and audio with Affogato from Claude Code and other agents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "affogato",
+      "source": "./plugins/affogato",
+      "description": "Affogato API + MCP skills: list models, quote credits, generate, wait, download.",
+      "version": "0.1.0",
+      "category": "media"
+    }
+  ]
+}

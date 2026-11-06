@@ -1,0 +1,13 @@
+{
+  "name": "affogato",
+  "version": "0.1.0",
+  "description": "Generate images, video and audio with Affogato (affogato.ai): list models, quote credits, generate, wait, download, plus the Affogato MCP server.",
+  "author": { "name": "Affogato", "url": "https://affogato.ai" },
+  "homepage": "https://affogato.ai/developers",
+  "repository": "https://github.com/affogato-ai/skills",
+  "license": "MIT",
+  "keywords": ["affogato", "image generation", "video generation", "text to speech", "mcp"],
+  "mcpServers": {
+    "affogato": { "type": "http", "url": "https://api.affogato.ai/mcp" }
+  }
+}
